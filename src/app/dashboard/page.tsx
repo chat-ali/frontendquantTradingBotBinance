@@ -67,7 +67,7 @@ interface Status {
   total_trades_open: number;
 }
 
-const API_BASE = "https://binancequanttradeengine-production-636e.up.railway.app:8000";
+const API_BASE = "https://binancequanttradeengine-production-636e.up.railway.app";
 
 export default function Dashboard() {
   const [config, setConfig] = useState<Config | null>(null);
